@@ -166,6 +166,43 @@ Creamos la rama de la feature:
 
 ![GitHub Logo](/images/estilostart.png)
 
+Modificamos el archivo index.html con la nueva feature.
+
+Después le hacemos el add y el commit:
+
+![GitHub Logo](/images/gitaddcss.png)
+
+Ahora podemos hacer el publish:
+
+![GitHub Logo](/images/publifea.png)
+
+Y el finish:
+
+![GitHub Logo](/images/finishfea.png)
+
+
+#### Creando la release
+
+Para crear la release seguiremos la metodología GitFlow.
+
+Empezamos con el start:
+
+![GitHub Logo](/images/releasestart.png)
+
+Seguimos con el publish:
+
+![GitHub Logo](/images/releasepub.png)
+
+Comprobamos que se ha publicado la release(en la imagen siguiente se ve el nombre de mejorasV1_0 porque el usuario 3 se equivocó de nombre, debería ser v1.0):
+![GitHub Logo](/images/releasebranch.png)
+
+Y por último hacemos un finish:
+![GitHub Logo](/images/finishrelease.png)
+
+Con el comando finish se hará el merge en el master además de borrar la rama en remoto:
+(en la siguiente imagen se ve el nombre de mejorasV1_0, debería ser v1.01)
+![GitHub Logo](/images/mejorasgit.png)
+
 
 
 
