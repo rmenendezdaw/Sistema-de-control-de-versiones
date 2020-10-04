@@ -148,7 +148,7 @@ A continuación hacemos el finish:
 
 Realizamos el push de develop con el siguiente comando:
 
-**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git push -u origin develop
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git push -u origin develop**
 
 ![GitHub Logo](/images/pushfea2.png)
 
@@ -204,7 +204,7 @@ Con el comando finish se hará el merge en el master además de borrar la rama e
 ![GitHub Logo](/images/mejorasgit.png)
 
 
-###Usuario 1: Testeo y retoques
+### Usuario 1: Testeo y retoques
 
 El usuario debe hacer un pull del repositorio remoto:
 ![GitHub Logo](/images/pull4.png)
