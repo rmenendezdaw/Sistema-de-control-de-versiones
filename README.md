@@ -35,4 +35,27 @@ Esto ayuda a no tener el riesgo de mergear o hacer commit sobre un trunk o repos
 Aparte de eliminar ese factor de riesgo, siempre integra código en fases muy tempranas, de forma que los equipos puedan trabajar de forma independiente, y al final mergean su código hasta llegar a la rama principal o master.
 
 
+##Simulación de usuarios
+
+Para esta práctica voy a simular los usuarios con diferentes directorios:
+
+
 ![GitHub Logo](/images/creardirectorios.png)
+
+
+
+##Usuario1
+
+Empezamos creando el repositorio en Github:
+
+![GitHub Logo](/images/new.png)
+
+Cuando hagamos click en “New” accederemos a la siguiente página, en la cual podemos configurar algunas opciones.
+
+![GitHub Logo](/images/creating.png)
+
+
+
+
+
+
