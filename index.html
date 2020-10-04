@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+git<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -7,15 +7,18 @@
 <section>
     <header>Diseño de Aplicaciones Web</header>
 </section>
-
-<nav>Home</nav>
-
-<h1>Sobre Nosotros</h1>
-<p>2ºDAW es un ciclo el cual se enfoca en la implementación de páginas web. Es una profesión que está en auge, 
-    ya que se necesitan varias personas para crear una Web y cada vez hay más personas que ofrecen sus productos
-    o servicios a través de ellas.
-</p>
-
+<nav>
+<a href="#" style="text-decoration: none; color: brown;">Home</a>
+</nav>
+<div>
+    <h1>Sobre Nosotros</h1>
+    <p id="number" >2ºDAW es un ciclo el cual se enfoca en la implementación de páginas web. Es una profesión que está en auge, 
+        ya que se necesitan varias personas para crear una Web y cada vez hay más personas que ofrecen sus productos
+        o servicios a través de ellas.
+    </p>
+    <button type="button" onclick='document.getElementById("number").innerHTML = "6936554322 Contacta con nosotros !"'>Click Me!</button>
+    <button type="button" onclick="document.getElementById('number').style.fontSize='36px'">Click Me!</button>
+</div>
 <section>
     <footer>
         2ºDAW Promoción 2020/2021
