@@ -77,4 +77,10 @@ Inicialización del repositorio y primer “push”:
 
 Para el desarrollo de este proyecto se utilizará GitFlow. Lo primero que vamos a hacer es inicializar el directorio y crear las ramas. GitFlow crea las ramas Master y Develop por defecto:
 
+![GitHub Logo](/images/gitflowinit.png)
+
+Este proyecto se va a poner en producción, para ello tenemos que cambiar de rama:
+![GitHub Logo](/images/cambiorama.png)
+
+
 
