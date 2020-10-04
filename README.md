@@ -98,7 +98,39 @@ Para subir la rama “Develop”:
 - Realizamos el merge desde la rama Master.
 - Realizamos el “push”.
 
+Accedemos a Github para comprobar que todo haya ido bien:
+
+![GitHub Logo](/images/branches.png)
+![GitHub Logo](/images/muestrapush.png)
 
 
+### Features usuario 2
+
+El usuario 2 empezará su parte del trabajo realizando un “clone” del repositorio en GitHub:
+
+![GitHub Logo](/images/cloneusu2.png)
+
+Accedemos al directorio principal y lo inicializamos:
+
+![GitHub Logo](/images/init2.png)
+
+#### Primera feature
+Su trabajo es añadir dos funcionalidades en el proyecto, vamos con la primera.
+
+Primero vamos a crear la rama de feature con GitFlow después utilizaré la metodología Git.
+
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git flow feature start contenidoHTML**
+
+Nos pondrá por defecto en la rama **feature/contenidoHTML**, modificamos el archivo index.html.
+
+![GitHub Logo](/images/commitusu2.png)
+
+Una vez modificado y hecho el commit le haremos el push.
+
+![GitHub Logo](/images/pushusu2.png)
+
+Para que los cambios afecten a develop vamos a hacer un flow finish:
+
+![GitHub Logo](/images/finish2-1.png)
 
 
