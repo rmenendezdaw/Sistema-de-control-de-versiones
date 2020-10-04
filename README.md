@@ -204,6 +204,39 @@ Con el comando finish se hará el merge en el master además de borrar la rama e
 ![GitHub Logo](/images/mejorasgit.png)
 
 
+###Usuario 1: Testeo y retoques
+
+El usuario debe hacer un pull del repositorio remoto:
+![GitHub Logo](/images/pull4.png)
+
+
+Hacemos un start del hotfix:
+![GitHub Logo](/images/hotfixstart.png)
+
+Lo publicamos:
+![GitHub Logo](/images/publishhot.png)
+
+Comprobamos que se ha creado la rama en el repositorio remoto:
+![GitHub Logo](/images/branchhot.png)
+
+Y le hacemos el finish:
+![GitHub Logo](/images/finishhot.png)
+
+Por último hacemos un push:
+![GitHub Logo](/images/pushhot.png)
+
+Comprobamos que se ha actualizado todo en master:
+![GitHub Logo](/images/githubhot.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
