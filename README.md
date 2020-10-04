@@ -71,7 +71,7 @@ Una vez creado implementará las funciones que se le han requerido:
 ![GitHub Logo](/images/htmlfirst.png)
 
 
-####Inicialización del repositorio y primer “push”
+#### Inicialización del repositorio y primer “push”
 
 Para el desarrollo de este proyecto se utilizará GitFlow. Lo primero que vamos a hacer es inicializar el directorio y crear las ramas. GitFlow crea las ramas Master y Develop por defecto:
 
@@ -81,10 +81,10 @@ Este proyecto se va a poner en producción, para ello tenemos que cambiar de ram
 ![GitHub Logo](/images/cambiorama.png)
 
 Una vez inicializado vamos a hacer el “add” y el “commit” para poder hacer el “push”:
-
 ![GitHub Logo](/images/gitadd.png)
 
 Con el siguiente comando configuramos la ruta al repositorio remoto.
+
 **raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git remote add origin https://github.com/rmenendezdaw/Sistema-de-control-de-versiones**
 
 Ahora si podemos realizar el push hacia el origen(repositorio remoto).
@@ -99,7 +99,6 @@ Para subir la rama “Develop”:
 - Realizamos el “push”.
 
 Accedemos a Github para comprobar que todo haya ido bien:
-
 ![GitHub Logo](/images/branches.png)
 ![GitHub Logo](/images/muestrapush.png)
 
@@ -127,10 +126,52 @@ Nos pondrá por defecto en la rama **feature/contenidoHTML**, modificamos el arc
 
 Una vez modificado y hecho el commit le haremos el push.
 
-![GitHub Logo](/images/pushusu2.png)
+![GitHub Logo](/images/pushusu2-1.png)
 
 Para que los cambios afecten a develop vamos a hacer un flow finish:
 
-![GitHub Logo](/images/finish2-1.png)
+![GitHub Logo](/images/finishsus2-1.png)
+
+#### Segunda feature
+
+Para esta nueva funcionalidad vamos utilizar Git flow:
+![GitHub Logo](/images/startusu2.png)
+
+Modificamos **index.html** y realizamos un git flow publish.
+
+![GitHub Logo](/images/publish2.png)
+Comprobamos que se ha creado la rama en el remoto:
+![GitHub Logo](/images/branchpublis.png)
+
+A continuación hacemos el finish:
+![GitHub Logo](/images/finishusu2.png)
+
+Realizamos el push de develop con el siguiente comando:
+
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git push -u origin develop
+
+![GitHub Logo](/images/pushfea2.png)
+
+#### Usuario 3: Feature y release 
+
+Primero hacemos el clone en el directrorio del usuario 3:
+
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git clone https://github.com/rmenendezdaw/Sistema-de-control-de-versiones.git**
+
+Inicializamos el repositorio:
+
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git flow init**
+
+Creamos la rama de la feature:
+
+![GitHub Logo](/images/estilostart.png)
+
+
+
+
+
+
+
+
 
 
