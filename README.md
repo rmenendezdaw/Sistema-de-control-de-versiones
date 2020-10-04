@@ -13,7 +13,7 @@ Es un software de control de versiones diseñado por Linus Torvalds, pensando en
 
 Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
 
-Algunas de las características más importantes de Git son:
+Algunas de las **características** más importantes de **Git** son:
 
 - Rapidez en la gestión de ramas, debido a que Git nos dice que un cambio será fusionado mucho más frecuentemente de lo que se escribe originalmente.
 - Gestión distribuida; Los cambios se importan como ramas adicionales y pueden ser fusionados de la misma manera como se hace en la rama local.
@@ -33,8 +33,6 @@ GitFlow tiene una gran aceptación y es bastante interesante porque básicamente
 
 Vamos a configurar que el repositorio sea público y que además añada el archivo README.md.
 Creación del archivo html
-
-El usuario 1 se encarga de crear el archivo html que lo llamaremos “index.html”.
 
 Esto ayuda a no tener el riesgo de mergear o hacer commit sobre un trunk o repositorio que está utilizado por muchas personas.
 
@@ -73,7 +71,7 @@ Una vez creado implementará las funciones que se le han requerido:
 ![GitHub Logo](/images/htmlfirst.png)
 
 
-Inicialización del repositorio y primer “push”:
+####Inicialización del repositorio y primer “push”
 
 Para el desarrollo de este proyecto se utilizará GitFlow. Lo primero que vamos a hacer es inicializar el directorio y crear las ramas. GitFlow crea las ramas Master y Develop por defecto:
 
@@ -81,6 +79,26 @@ Para el desarrollo de este proyecto se utilizará GitFlow. Lo primero que vamos 
 
 Este proyecto se va a poner en producción, para ello tenemos que cambiar de rama:
 ![GitHub Logo](/images/cambiorama.png)
+
+Una vez inicializado vamos a hacer el “add” y el “commit” para poder hacer el “push”:
+
+![GitHub Logo](/images/gitadd.png)
+
+Con el siguiente comando configuramos la ruta al repositorio remoto.
+**raul@Portatil:~/Escritorio/Despliegue_Web/GitFlow/usuario1$ git remote add origin https://github.com/rmenendezdaw/Sistema-de-control-de-versiones**
+
+Ahora si podemos realizar el push hacia el origen(repositorio remoto).
+
+![GitHub Logo](/images/push.png)
+
+
+Para subir la rama “Develop”:
+
+- Nos posicionamos en la rama.
+- Realizamos el merge desde la rama Master.
+- Realizamos el “push”.
+
+
 
 
 
